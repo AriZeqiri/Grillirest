@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Grilli </title>
+  <meta name="title" content="Grilli - Amazing & Delicious Food">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Grilli</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          Ferizaj, Latif Sianani,R122
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Gjdo Dite : 8.00 deri 10.00 </span>
+      </div>
+
+      <a href="tel:+11234567890" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+383 45112221</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@restaurant.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">rezervime@grilli.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Menyja</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Per Ne</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Kuzhinjeret tane</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Kontakti</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Na Vizitoni</p>
+
+          <address class="body-4">
+            Ferizaj, Latif Sianani,<br>
+            R122
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+          <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">booking@grilli.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Rezervimi</p>
+
+          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+            +383 45112221
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Rezervoni Nje Tavoline</span>
+
+        <span class="text text-2" aria-hidden="true">Tani</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Tradaticionale</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              For the love of <br>
+              delicious food
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with family & feel the joy of mouthwatering food
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Shikoni Menyjen</span>
+
+              <span class="text text-2" aria-hidden="true">Shikoni Menyjen</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Eksperienc e Shkelqyer</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Flavors Inspired by <br>
+              the Seasons
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with family & feel the joy of mouthwatering food
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">amazing & delicious</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Ku gjdo shije  <br>
+              tregon nje storie
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Lorem ipsum dolor sit amet consectetur, adipisicing et.
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Shiko menyn</span>
+
+              <span class="text text-2" aria-hidden="true">Tani</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#" class="hero-btn has-after">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Rezervo</span>
+        </a>
+
+      </section>
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2"></p>
+
+          <h2 class="headline-1 section-title">
+            Ne ofrojmë nivel të lartë</h2>
+
+          <p class="section-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys
+            standard dummy text ever.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-1.jpg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Mengjesi</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Shiko Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-2.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Dreka</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Shiko Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-3.jpg" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Pijet</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Shiko MEnu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #SPECIAL DISH
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="./assets/images/special-dish-banner.jpg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Pjatë e veçantë</p>
+
+            <h2 class="headline-1 section-title">Lobster Tortellini</h2>
+
+            <p class="section-text">
+              Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the
+              industrys standard dummy text ever since the when an unknown printer took a galley of type.
+            </p>
+
+            <div class="wrapper">
+              <del class="del body-3">40.00€</del>
+
+              <span class="span body-1">20.00€</span>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Shiko Gjithe Menyn</span>
+
+              <span class="text text-2" aria-hidden="true">Tani</span>
+            </a>
+
+          </div>
+        </div>
+
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+        <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+      </section>
+
+
+      <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Përzgjedhja speciale</p>
+
+         
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-1.png" width="100" height="100" loading="lazy" alt="Greek Salad"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Sallate Greke</a>
+                    </h3>
+
+                    <span class="badge label-1">Sezonale</span>
+
+                    <span class="span title-2">15.00€</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-2.png" width="100" height="100" loading="lazy" alt="Lasagne"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Lasania</a>
+                    </h3>
+
+                    <span class="span title-2">20.00€</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-3.png" width="100" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Pule e Pjekur</a>
+                    </h3>
+
+                    <span class="span title-2">10.00€</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-4.png" width="100" height="100" loading="lazy" alt="Tokusen Wagyu"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Tokusen Vagiu</a>
+                    </h3>
+
+                    <span class="badge label-1">e RE</span>
+
+                    <span class="span title-2">39.00€</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit.lorem
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-5.png" width="100" height="100" loading="lazy" alt="Olivas Rellenas"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Olivas Rellenas</a>
+                    </h3>
+
+                    <span class="span title-2">25.00€</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab repellendus, quae veritatis, veniam dolor quis laudant
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-6.png" width="100" height="100" loading="lazy" alt="Opu Fish"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Peshk Opu</a>
+                    </h3>
+
+                    <span class="span title-2">39.00€</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Error maiores eligendi 
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <p class="menu-text text-center">
+            Gjate Dimrit gjdo Dit <span class="span">7:00 pm</span> to <span class="span">9:00 pm</span>
+          </p>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">Shiko Gjithe Menun</span>
+
+            <span class="text text-2" aria-hidden="true">Tani</span>
+          </a>
+
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+
+   
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+      <!-- 
+        - #RESERVATION
+      -->
+
+      <section class="reservation">
+        <div class="container">
+
+          <div class="form reservationform bg-black-10">
+
+            <form action="" class="form-left">
+              <a href="http://127.0.0.1:5500/rezervim.html?name=&phone=&person=1-person&reservation-date=&person=09%3A00&message="></a>
+              <button id="redirect" type="submit" onclick="Redirect();" class="btn btn-secondary">
+                <span class="text text-1">Rezervoni nje Tavoline</span>
+
+                <span class="text text-2" aria-hidden="true">Tani</span>
+              </button>
+
+            </form>
+
+   
+
+             
+
+             
+
+       
+  
+
+
+
+
+
+     
+
+
+      <!-- 
+        - #EVENT
+      -->
+
+      <section class="section event bg-black-10" aria-label="event">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">Eventet e Ardhshme</p>
+
+          
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-1.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-15">15/02/2023</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Ushqimi, Shija</p>
+
+                
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-2.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-08">03/01/2023</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Receta</p>
+
+                
+                </div>
+<br>
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-3.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-03">27/12/2022</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Receta</p>
+
+                  
+                  
+                </div>
+<br>
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">Shiko Ushqimet</span>
+
+            <span class="text text-2" aria-hidden="true">tani</span>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+            Ferizaj, Latif Sianani,
+R122
+          </address>
+
+          <a href="mailto:rezervime@grilli.com" class="body-4 contact-link">rezervime@grilli.com</a>
+
+          <a href="tel:+383 45112221" class="body-4 contact-link">per rezervime: +383 45112221</a>
+
+          <p class="body-4">
+            hapur prej : 09:00 - 11:00
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Get News & Offers</p>
+
+          <p class="label-1">
+            Subscribe us & Get <span class="span">25% Off.</span>
+          </p>
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Subscribe</span>
+
+              <span class="text text-2" aria-hidden="true">Subscribe</span>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Menyt</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Per Ne</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Kuzhinjeret</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Kontaktoni</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2023 Grilli. All Rights Reserved | <a href="https://github.com/AriZeqiri"
+            target="_blank" class="link">ArifZeqiri</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
